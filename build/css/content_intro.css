@@ -8,8 +8,11 @@
   width: 80%;
   margin: auto;
 }
+#introContainer h3{
+  margin: 10% 0px;
+}
 .websiteNote{
-  ackground-color: rgba(0, 0, 0, 0.25);
+  background-color: rgba(0, 0, 0, 0.2);
   padding: 10px;
   border-radius: 10px;
   font-size: 10px;
