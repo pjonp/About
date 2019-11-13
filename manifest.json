@@ -1,6 +1,7 @@
 {
-  "short_name": "pjonps site",
-  "name": "pjonp's React from scratch website",
+  "short_name": "pjonps_website",
+  "name": "pjonps React from scratch website",
+  "homepage": "https://pjonp.github.io/About",
   "icons": [
     {
       "src": "favicon.ico",
