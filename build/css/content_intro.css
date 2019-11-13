@@ -1,0 +1,29 @@
+#content_intro {
+  width: 100%;
+  min-height: 100vh;
+  text-align: center;
+  padding-top: 100px;
+}
+#introContainer {
+  width: 80%;
+  margin: auto;
+}
+.websiteNote{
+  ackground-color: rgba(0, 0, 0, 0.25);
+  padding: 10px;
+  border-radius: 10px;
+  font-size: 10px;
+}
+.websiteNote a{
+  text-decoration: none;
+  color: #09d3ac
+}
+@keyframes glowing {
+  0% { box-shadow: 0 0 0px red }
+  30% { box-shadow: 0 0 40px red }
+  70% { box-shadow: 0 0 40px red }
+  100% { box-shadow: 0 0 0px red }
+}
+.redGlow {
+  animation: glowing 2500ms;
+}
