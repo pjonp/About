@@ -2,7 +2,7 @@
   "name": "pjonps_website",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://pjonp.github.io/about",
+  "homepage": "https://pjonp.github.io/About",
   "dependencies": {
     "gh-pages": "^2.1.1",
     "react": "^16.11.0",

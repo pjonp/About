@@ -1,0 +1,19 @@
+*{
+  font-family: 'Arvo', serif;
+  margin: 0px;
+}
+body{
+  background: rgb(209,209,209);
+  background: radial-gradient(circle, rgba(209,209,209,1) 0%, rgba(0,0,0,1) 100%);
+  width: 100%;
+  color: white;
+
+}
+.contentContainer {
+  margin: 0px 0px 0px 160px;
+}
+@media screen and (max-width: 600px) {
+  .contentContainer {
+    margin-left: 0px;
+  }
+}
