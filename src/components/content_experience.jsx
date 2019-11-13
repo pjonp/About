@@ -25,7 +25,7 @@ export default class ContentExperience extends Component {
       <div id='content_experience'>
         <h1>Experience</h1>
         <p>
-         For the last ten years I've been grateful to work with more the 50+ companies creating solutions to their problems; both simple and complex.
+         For the last ten years I've been grateful to work with 50+ companies creating solutions to their problems; both simple and complex.
         </p>
         <p>
         I'm ready for a new challenge.
