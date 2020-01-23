@@ -4,6 +4,7 @@
   left: 0px;
   height: 450px;
   width: 145px;
+  animation: openSidebar 2s;
 }
 #sidebar {
   box-sizing: border-box;
@@ -57,14 +58,24 @@ color: white;
 #sidebarSlider[type=checkbox] {
   display: none;
 }
+@keyframes openSidebar {
+  0% {
+    transform: translateX(-100%);
+  }
+  100% {
+    transform: translateX(0);
+  }
+}
+
 @media screen and (max-width: 600px) {
   #sidebarcontainer {
-    left: -130px;
+    left: -120px;
     -webkit-transition: left .5s ease .25s;
     transition: left .5s ease .25s;
   }
   #sidebar {
-    border-color: #09d3ac;
+    border-right: 5px solid #09d3ac;
+    border-bottom: 5px solid #09d3ac;
   }
   #sidebarcontainer{
     cursor: zoom-in;

@@ -14,8 +14,10 @@
 .websiteNote{
   background-color: rgba(0, 0, 0, 0.2);
   padding: 10px;
+  margin: auto;
   border-radius: 10px;
   font-size: 10px;
+  max-width: 350px;
 }
 .websiteNote a{
   text-decoration: none;
@@ -29,4 +31,22 @@
 }
 .redGlow {
   animation: glowing 2500ms;
+}
+
+svg {
+  width: 270px;
+}
+g {
+  margin: auto;
+}
+.path {
+  stroke-dasharray: 530;
+  stroke-dashoffset: 530;
+  animation: dash 3s linear forwards;
+}
+@keyframes dash {
+  to {
+    stroke-dashoffset: 0;
+    fill: #09d3ac;
+  }
 }
